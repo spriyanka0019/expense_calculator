@@ -1,0 +1,41 @@
+<app-signin></app-signin>
+<div>
+    <button mat-raised-button color="primary" routerLink="/dashboard">Back</button>
+</div>
+
+<div class="container" >
+
+    <h1>Add your Expenses Here</h1>
+    
+    <form  [formGroup] = "myForm">
+        <div class="form-group">
+            <label for="category">Category Type</label><br>
+            <!-- <input type="text" formControlName="category" class = "form-control" /><br> -->
+            <!-- <option *ngFor="let category of expenseCategory" [value]="category" >{{ category }}</option> -->
+            <select #target (change)="update(target.value)" formControlName="category" >
+                <option *ngFor="let category of expenseCategory" [value]="category">
+                    {{category}}
+                </option>
+            </select>
+
+            <pre></pre>
+
+            <label for="amount">Amount</label><br>
+            <input type="text" formControlName="amount" class = "form-control" /><br>
+
+            <pre></pre>
+
+            <label for="date">Date</label><br>
+            <input type="date" formControlName="date" class = "form-control" /><br>
+
+            <pre></pre>
+
+            <button class="btn btn-primary" (click)="addExpense()" [disabled]="!(myForm.valid)">
+                Submit Expense
+            </button>
+        </div>
+
+    </form>
+
+</div>
+

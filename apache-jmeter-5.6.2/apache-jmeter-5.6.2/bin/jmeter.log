@@ -1,0 +1,33 @@
+2023-10-24 19:42:03,529 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-10-24 19:42:03,569 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-10-24 19:42:03,571 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-10-24 19:42:03,581 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-10-24 19:42:03,581 INFO o.a.j.JMeter: Version 5.6.2
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: java.version=17.0.1
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: os.name=Windows 10
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: os.arch=amd64
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: os.version=10.0
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-10-24 19:42:03,582 INFO o.a.j.JMeter: java.awt.headless=null
+2023-10-24 19:42:03,583 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-10-24 19:42:03,583 INFO o.a.j.JMeter: Available Processors =8
+2023-10-24 19:42:03,597 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-10-24 19:42:03,597 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-10-24 19:42:03,597 INFO o.a.j.JMeter: JMeterHome=C:\Users\Suman Khanal\Desktop\Expense_Calculator\apache-jmeter-5.6.2\apache-jmeter-5.6.2
+2023-10-24 19:42:03,598 INFO o.a.j.JMeter: user.dir  =C:\Users\Suman Khanal\Desktop\Expense_Calculator\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2023-10-24 19:42:03,599 INFO o.a.j.JMeter: PWD       =C:\Users\Suman Khanal\Desktop\Expense_Calculator\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2023-10-24 19:42:03,609 INFO o.a.j.JMeter: IP: 192.168.2.17 Name: DESKTOP-UL0R68K FullName: DESKTOP-UL0R68K.home
+2023-10-24 19:42:03,630 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-10-24 19:42:03,839 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2023-10-24 21:13:14,545 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-24 21:13:14,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-24 21:13:14,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-24 21:13:14,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-24 21:13:14,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-10-24 21:13:14,555 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-10-24 23:01:54,015 INFO o.a.j.s.FileServer: Default base='C:\Users\Suman Khanal\Desktop\Expense_Calculator\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin'
+2023-10-24 23:01:54,020 INFO o.a.j.s.FileServer: Set new base='C:\Users\Suman Khanal\Desktop'
+2023-10-24 23:01:54,247 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-10-24 23:01:54,279 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-10-24 23:01:54,279 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8

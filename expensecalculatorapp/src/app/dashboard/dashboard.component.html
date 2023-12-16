@@ -1,0 +1,54 @@
+<app-signin></app-signin>
+<div>
+    <div> 
+        <button mat-raised-button color="primary" class="btn1" routerLink="/expense">Add Expense</button>
+        <button mat-raised-button color="primary" class="btn1" routerLink="/income">Add Income</button>
+    </div>
+    <br/>
+    <br/>
+    <div >
+        <h3>Total expenses for this month are: {{ this.totalExpenses}}</h3>
+        <h3>Total incomes for this month are: {{this.totalIncome}}</h3>
+    </div>
+   <br/>
+   <br/>    
+    <div>
+        <h4>Previous History</h4>
+        <form  [formGroup] = "myForm">
+            <div class="form-group">
+                <label for="date">Select month for which you want to see expenses: </label> <br/>  <br/>
+                <input type="date" formControlName="date" class = "form-control"  required/><br>
+    
+                <pre></pre>
+    
+                <button mat-raised-button color="primary" class="btn1" (click)="showExpensesForAMonth(myForm.value.date)" [disabled]="!(myForm.valid)">Show Expenses</button>
+            </div>
+        </form>
+       <br/>
+        <div *ngIf=showExpenses class="expense-div" >
+            <div >Total Expenses for {{this.monthNameForExpense}} is: </div>
+            <div >{{this.totalExpensesForSelectedMonth}}</div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div>
+        <form  [formGroup] = "myIncomeForm">
+            <div class="form-group">
+                <label for="date">Select month for which you want to see total income: </label> <br/>  <br/>
+                <input type="date" formControlName="date" class = "form-control" required/><br>
+    
+                <pre></pre>
+    
+                <button mat-raised-button color="primary" class="btn1" (click)="showTotalIncomeInAMonth(myIncomeForm.value.date)" [disabled]="!(myIncomeForm.valid)">Show Incomes</button>
+            </div>
+        </form>
+       <br/>
+       <br/>
+        <div *ngIf="showIncomes" class="expense-div">
+            <div>Total Income for {{this.monthNameForIncome}} is: </div>
+            <div>{{this.totalIncomeForSelectedMonth}}</div>
+        </div>
+    </div>
+</div>
+
