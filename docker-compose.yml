@@ -8,10 +8,10 @@ services:
         ports:
             - "8080:80"
     frontend:
-        image: angular-img
-        container_name: angular-img
+        image: angular
+        container_name: angular
         build:
-            context: ./angular-img
+            context: ./angular
         ports:
             - "8000:80"
         depends_on:
